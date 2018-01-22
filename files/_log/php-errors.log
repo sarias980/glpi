@@ -1,0 +1,119 @@
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+2017-11-08 21:55:41 [@dai]
+  *** PHP Warning(2): session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,'
+  Backtrace :
+  :                                                  
+  inc/api.class.php:265                              session_start()
+  inc/apirest.class.php:101                          API->retrieveSession()
+  apirest.php:46                                     APIRest->call()
+2017-11-08 21:55:42 [@dai]
+  *** PHP Warning(2): Unknown: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,'
+  Backtrace :
+  :                                                  
+2017-11-08 21:55:42 [@dai]
+  *** PHP Warning(2): Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/www/html/glpi/files/_sessions)
+  Backtrace :
+  :                                                  
+2017-11-08 21:56:31 [@dai]
+  *** PHP Warning(2): session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,'
+  Backtrace :
+  :                                                  
+  inc/api.class.php:265                              session_start()
+  inc/apirest.class.php:101                          API->retrieveSession()
+  apirest.php:46                                     APIRest->call()
+2017-11-08 21:56:31 [@dai]
+  *** PHP Warning(2): Unknown: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,'
+  Backtrace :
+  :                                                  
+2017-11-08 21:56:31 [@dai]
+  *** PHP Warning(2): Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/www/html/glpi/files/_sessions)
+  Backtrace :
+  :                                                  
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+Test
+2018-01-02 21:49:13 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:50:02 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:50:28 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:56:20 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:57:14 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:57:49 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-02 21:58:25 [@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/apirest.class.php:391                          
+  inc/apirest.class.php:86                           APIRest->parseIncomingParams()
+  apirest.php:46                                     APIRest->call()
+2018-01-03 19:37:05 [2@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/user.class.php:608                             
+  inc/commondbtm.class.php:929                       User->post_addItem()
+  inc/api.class.php:1596                             CommonDBTM->add()
+  inc/apirest.class.php:240                          API->createItems()
+  apirest.php:46                                     APIRest->call()
+Test
+Test
+Test
+2018-01-11 17:32:30 [2@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/user.class.php:608                             
+  inc/commondbtm.class.php:929                       User->post_addItem()
+  inc/api.class.php:1596                             CommonDBTM->add()
+  inc/apirest.class.php:240                          API->createItems()
+  apirest.php:46                                     APIRest->call()
+2018-01-12 16:40:17 [2@dai]
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  inc/user.class.php:608                             
+  inc/commondbtm.class.php:929                       User->post_addItem()
+  inc/api.class.php:1596                             CommonDBTM->add()
+  inc/apirest.class.php:240                          API->createItems()
+  apirest.php:46                                     APIRest->call()
